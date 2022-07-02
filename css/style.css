@@ -807,6 +807,10 @@ body.popup-show::after {
   }
 }
 @media (max-width: 500px) {
+  .footer.shadow::before {
+    right: -210px;
+    top: -187%;
+}
   .footer__columns {
     flex-direction: row-reverse;
     align-items: center;
