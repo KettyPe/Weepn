@@ -60,6 +60,7 @@
 .radio-network__label img {
     width: 28px;
     height: 17px;
+    margin-top: 3px;
 }
 .radio-network__label:hover {
     background: rgba(255, 255, 255, 0.39);
@@ -96,6 +97,7 @@
     .radio-network__label img {
         width: 15px;
         height: 10px;
+        margin-top: 6px;
     }
     .radio-network__label {
         padding: 10px 10px 10px 16px;
