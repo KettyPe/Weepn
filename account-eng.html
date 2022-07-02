@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+	<title>Personal account</title>
+	<meta charset="UTF-8">
+	<meta name="format-detection" content="telephone=no">
+	<link rel="stylesheet" href="css/style.min.css">
+	<link rel="stylesheet" href="css/account.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+	<div class="wrapper">
+		<header class="header shadow">
+			<div class="header__container">
+				<div class="header__body">
+					<div class="header__language lang-header">
+						<div class="lang-header__item">
+							<div class="lang-header__image">
+								<picture><source srcset="img/flag/russian.webp" type="image/webp"><img src="img/flag/russian.png" alt="флаг России"></picture>
+							</div>
+							<div class="lang-header__text _icon-arrow">Rus</div>
+						</div>
+						<div class="lang-header__sublist">
+							<a href="#" class="lang-header__sublist-item">
+								<div class="lang-header__image">
+									<picture><source srcset="img/flag/ukrainian.webp" type="image/webp"><img src="img/flag/ukrainian.png" alt="флаг Украины"></picture>
+								</div>
+								<div class="lang-header__text">Ukrainian</div>
+							</a>
+							<a href="#" class="lang-header__sublist-item">
+								<div class="lang-header__image">
+									<picture><source srcset="img/flag/eng.webp" type="image/webp"><img src="img/flag/eng.png" alt="флаг США"></picture>
+								</div>
+								<div class="lang-header__text">Eng</div>
+							</a>
+						</div>
+					</div>
+					<nav class="header__menu menu">
+						<ul class="menu__list">
+							<li><a href="index.html" class="menu__link">Главная</a></li>
+							<li><a href="price.html" class="menu__link">Цены</a></li>
+							<li><a href="network.html" class="menu__link">Сеть серверов</a></li>
+							<li><a href="account.html" class="menu__link">Разработчикам</a></li>
+							<li><a href="blog.html" class="menu__link">Блог</a></li>
+						</ul>
+					</nav>
+					<div class="header__buttons button-reg">
+						<button type="button" class="button-reg__login">Войти</button>
+						<a href="#" class="button-reg__reg">Регистрация</a>
+					</div>
+					<nav class="menu-mob">
+						<button type="button" class="menu-mob__icon icon-menu"><span></span></button>
+						<div class="menu-mob__body">
+							<div class="menu-mob__content">
+								<div class="menu-mob__language lang-header">
+									<div class="lang-header__item">
+										<div class="lang-header__image">
+											<picture><source srcset="img/flag/russian.webp" type="image/webp"><img src="img/flag/russian.png" alt="флаг России"></picture>
+										</div>
+										<div class="lang-header__text _icon-arrow">Rus</div>
+									</div>
+									<div class="lang-header__sublist">
+										<a href="#" class="lang-header__sublist-item">
+											<div class="lang-header__image">
+												<picture><source srcset="img/flag/ukrainian.webp" type="image/webp"><img src="img/flag/ukrainian.png" alt="флаг Украины"></picture>
+											</div>
+											<div class="lang-header__text">Ukrainian</div>
+										</a>
+										<a href="#" class="lang-header__sublist-item">
+											<div class="lang-header__image">
+												<picture><source srcset="img/flag/eng.webp" type="image/webp"><img src="img/flag/eng.png" alt="флаг США"></picture>
+											</div>
+											<div class="lang-header__text">Eng</div>
+										</a>
+									</div>
+								</div>
+								<ul class="menu-mob__list">
+									<li class="menu-mob__item"><a href="#" class="menu-mob__link">Главня</a></li>
+									<li class="menu-mob__item"><a href="#" class="menu-mob__link">Цены</a></li>
+									<li class="menu-mob__item"><a href="#" class="menu-mob__link">Спососбы оплаты</a></li>
+									<li class="menu-mob__item"><a href="#" class="menu-mob__link">Сервера</a></li>
+									<li class="menu-mob__item"><a href="#" class="menu-mob__link">Разработчикам</a></li>
+									<li class="menu-mob__item"><a href="#" class="menu-mob__link">Блог</a></li>
+									<li class="menu-mob__item"><a href="#" class="menu-mob__link">Личный кабинет</a></li>
+								</ul>
+							</div>
+							<p class="menu-mob__text">weepn.net — облачный VPN-провайдер</p>
+						</div>
+					</nav>
+				</div>
+			</div>
+		</header>
+		<main class="page">
+			<section class="page__account account shadow indent">
+				<div class="account__container">
+					<div class="account__title">%User login%</div>
+					<div class="account__body shadow">
+						<div class="account__country country">
+							<div class="country__items country__items_eng">
+								<div class="country__item radio-country">
+									<input id="c_1" autocomplete="off" type="radio" name="form[]" class="radio-country__input">
+									<label for="c_1" class="radio-country__label">
+										<div class="radio-country__label-right">
+											<picture><source srcset="img/flag/Netherlands.webp" type="image/webp"><img src="img/flag/Netherlands.jpg" alt="флаг Нидерланд"></picture>
+											<div class="radio-country__text subtitle">Netherlands</div>
+										</div>
+										<div class="radio-country__label-left">online</div>
+									</label>
+								</div>
+								<div class="country__item radio-country">
+									<input id="c_2" autocomplete="off" type="radio" name="form[]" class="radio-country__input">
+									<label for="c_2" class="radio-country__label">
+										<div class="radio-country__label-right">
+											<picture><source srcset="img/flag/US.webp" type="image/webp"><img src="img/flag/US.jpg" alt="флаг США"></picture>
+											<div class="radio-country__text subtitle">USA</div>
+										</div>
+										<div class="radio-country__label-left">online</div>
+									</label>
+								</div>
+							</div>
+							<button type="button" class="country__button btn">Предложить страну</button>
+						</div>
+						<div class="account__info info-account">
+							<div class="info-account__wrapper">
+								<div class="info-account__item">
+									<div class="info-account__text-wrapper">
+										<div class="info-account__text info-account__text_title">Registration date</div>
+										<div class="info-account__text info-account__text_info">November 2022</div>
+									</div>
+									<button type="button" class="info-account__button">Sign out</button>
+								</div>
+							</div>
+							<div class="info-account__wrapper">
+								<div class="info-account__item">
+									<div class="info-account__text-wrapper">
+										<div class="info-account__text info-account__text_title">Balance</div>
+										<div class="info-account__text info-account__text_info">320 usd</div>
+									</div>
+									<button type="button" class="info-account__button">Top up</button>
+								</div>
+							</div>
+							<div class="info-account__wrapper">
+								<div class="info-account__item">
+									<div class="info-account__text-wrapper">
+										<div class="info-account__text info-account__text_title">Subscription</div>
+										<div class="info-account__text info-account__text_info">3 month, ordered
+											<span>12.10.2022</span>
+										</div>
+										<div class="info-account__text info-account__text_info">21 days left</div>
+									</div>
+									<button type="button" class="info-account__button">Extend</button>
+								</div>
+							</div>
+							<div class="info-account__wrapper">
+								<div class="info-account__item">
+									<div class="info-account__text-wrapper">
+										<div class="info-account__text info-account__text_title">Active session</div>
+										<div class="info-account__text info-account__text_info">3 hours, 45 minutes
+											<span>USA, Utah </span>
+										</div>
+									</div>
+									<button type="button" class="info-account__button info-account__button_small">Disconnect</button>
+								</div>
+							</div>
+							<div class="info-account__traffic">
+								<div class="info-account__traffic-title">Traffic forwarding</div>
+								<div class="info-account__traffic-items">
+									<div class="info-account__traffic-item item-traffic">
+										<div class="item-traffic__title">One month</div>
+										<div class="item-traffic__price"><span>2 </span>USD</div>
+										<div class="item-traffic__sale">No discount</div>
+										<button type="button" class="item-traffic__button btn">Order</button>
+									</div>
+									<div class="info-account__traffic-item item-traffic">
+										<div class="item-traffic__title">Three month</div>
+										<div class="item-traffic__price"><span>1 </span>USD</div>
+										<div class="item-traffic__sale">Nmonthly, 50% discount</div>
+										<button type="button" class="item-traffic__button btn">Order</button>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+		</main>
+		<footer class="footer shadow">
+			<div class="footer__container">
+				<div class="footer__top">
+					<nav class="footer__menu menu-footer">
+						<ul class="menu-footer__list">
+							<li><a href="#" class="menu-footer__link">Главная</a></li>
+							<li><a href="#" class="menu-footer__link">Цена</a></li>
+							<li><a href="#" class="menu-footer__link">Способы оплаты</a></li>
+						</ul>
+						<ul class="menu-footer__list">
+							<li><a href="#" class="menu-footer__link">Сервера</a></li>
+							<li><a href="#" class="menu-footer__link">Разработчикам</a></li>
+							<li><a href="#" class="menu-footer__link">Блог</a></li>
+						</ul>
+					</nav>
+					<div class="footer__columns">
+						<div class="footer__column">
+							<a href="#" class="footer__personal">Личный кабинет</a>
+							<div class="footer__buttons button-reg">
+								<button type="button" class="button-reg__login">Войти</button>
+								<a href="#" class="button-reg__reg">Регистрация</a>
+							</div>
+						</div>
+						<div class="footer__logo">
+							<img src="img/Logo.svg" alt="логотип">
+						</div>
+					</div>
+				</div>
+				<div class="footer__bottom">
+					<div class="footer__items">
+						<a href="#" class="footer__item">
+							<picture><source srcset="img/git.webp" type="image/webp"><img src="img/git.png" alt=""></picture>
+						</a>
+						<a href="#" class="footer__item">
+							<picture><source srcset="img/vc.webp" type="image/webp"><img src="img/vc.png" alt=""></picture>
+						</a>
+						<a href="#" class="footer__item">
+							<picture><source srcset="img/p.webp" type="image/webp"><img src="img/p.png" alt=""></picture>
+						</a>
+					</div>
+					<div class="footer__text">weepn.net — облачный VPN-провайдер</div>
+				</div>
+			</div>
+		</footer>
+	</div>
+	<div hidden class="popup">
+		<div class="popup__wrapper">
+			<div class="popup__content">
+				<div type="button" class="popup__close"><img src="img/icon/close.svg" alt="икнонка close"></div>
+				<div class="popup__body country-popup">
+					<h4 class="popup__title">Нет подходящей страны? <br> Предложите свою!</h4>
+					<form action="#" class="country-popup__form">
+						<div class="country-popup__input-wrapper">
+							<div class="popup__input-item">
+								<input autocomplete="off" type="text" name="form[]" placeholder="Например Кот-д'Ивуар" class="popup__input popup__input_country">
+							</div>
+							<div class="popup__input-item _icon-arrow">
+								<input autocomplete="off" type="text" name="form[]" placeholder="Город" class="popup__input popup__input_country">
+							</div>
+							<div class="popup__input-item">
+								<input autocomplete="off" type="text" name="form[]" placeholder="Дата-центр" class="popup__input popup__input_country">
+							</div>
+						</div>
+						<div class="country-popup__button btn">Предложить</div>
+					</form>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div hidden class="popup ">
+		<div class="popup__wrapper">
+			<div class="popup__content">
+				<div type="button" class="popup__close"><img src="img/icon/close.svg" alt="икнонка close"></div>
+				<div class="popup__body sing-popup">
+					<h4 class="popup__title">Sign up and stay secured</h4>
+					<form action="#" class="sing-popup__form">
+						<div class="sing-popup__inputs">
+							<div class="popup__input-item">
+								<input autocomplete="off" type="text" name="form[]" placeholder="Login" class="popup__input popup__input_sing _error-input">
+								<p class="popup__input-error">Please provide a valid value</p>
+							</div>
+							<div class="popup__input-item">
+								<input autocomplete="off" type="text" name="form[]" placeholder="Password" class="popup__input popup__input_sing">
+								<p class="popup__input-error">Please provide a valid value</p>
+							</div>
+							<div class="popup__input-item">
+								<input autocomplete="off" type="text" name="form[]" placeholder="Confirm password" class="popup__input popup__input_sing">
+								<p class="popup__input-error">Please provide a valid value</p>
+							</div>
+							<div class="popup__input-item">
+								<input autocomplete="off" type="text" name="form[]" placeholder="Secret phrase" class="popup__input popup__input_sing">
+								<p class="popup__input-error">Please provide a valid value</p>
+							</div>
+						</div>
+						<p class="sing-popup__text">As we don't ask email please save your secret phrase to recover
+							account
+							if password lost</p>
+						<div class="sing-popup__social social">
+							<a href="#" class="social__item">
+								<picture><source srcset="img/fox.webp" type="image/webp"><img src="img/fox.png" alt=""></picture>
+							</a>
+							<a href="#" class="social__item">
+								<picture><source srcset="img/git.webp" type="image/webp"><img src="img/git.png" alt=""></picture>
+							</a>
+						</div>
+						<button type="submit" class="sing-popup__button btn">Sign up</button>
+						<a href="#" class="sing-popup__link">No, i have account</a>
+					</form>
+				</div>
+			</div>
+		</div>
+	</div>
+</body>
+
+</html>
